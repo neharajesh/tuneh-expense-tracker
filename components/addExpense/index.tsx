@@ -2,16 +2,18 @@
 
 import { Dialog } from "radix-ui";
 import { Cross2Icon } from "@radix-ui/react-icons";
+import "./index.css";
 
 export const AddExpenseButton = () => {
   const handleSave = () => {
     console.log("Expense saved");
   };
+
   return (
     <>
       <Dialog.Root>
         <Dialog.Trigger asChild>
-          <button className="Button violet">Add Expense</button>
+          <button className="triggerButton">+ Add Expense</button>
         </Dialog.Trigger>
         <Dialog.Portal>
           <Dialog.Overlay className="DialogOverlay" />

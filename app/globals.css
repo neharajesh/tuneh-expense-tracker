@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -29,6 +31,23 @@
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
+
+    --color-pale-yellow: #FDF0D5;
+    --color-green: #6A994E;
+    --color-blue: #669BBC;
+    --color-red: #AD2831;
+
+    --color-grey-50: #f9fafb;
+    --color-grey-100: #f3f4f6;
+    --color-grey-200: #e5e7eb;
+    --color-grey-300: #d1d5dc;
+    --color-grey-400: #99a1af;
+    --color-grey-500: #6a7282;
+    --color-grey-600: #4a5565;
+    --color-grey-700: #364153;
+    --color-grey-800: #1e2939;
+    --color-grey-900: #101828;
+    --color-grey-950: #030712;
   }
 
   .dark {
@@ -56,6 +75,22 @@
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+
+    --color-green: #386641;
+    --color-blue: #003049;
+    --color-red: #780000;
+    --color-pale-yellow: #EDDEA4;
+
+    --color-grey-950: #f9fafb;
+    --color-grey-900: #f3f4f6;
+    --color-grey-800: #e5e7eb;
+    --color-grey-700: #d1d5dc;
+    --color-grey-600: #99a1af;
+    --color-grey-500: #6a7282;
+    --color-grey-400: #4a5565;
+    --color-grey-300: #364153;
+    --color-grey-200: #1e2939;
+    --color-grey-100: #101828;
   }
 }
 
@@ -66,4 +101,11 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.brand-font {
+  font-family: "Audiowide", sans-serif; 
+  font-weight: 600;
+  font-style: normal;
+  font-size: 26px;
 }

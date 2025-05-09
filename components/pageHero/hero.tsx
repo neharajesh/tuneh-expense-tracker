@@ -1,10 +1,11 @@
 'use client";';
 
-import { AddExpenseButton } from "./addExpense";
+import { AddExpenseButton } from "../addExpense";
+import "./index.css";
 
-export default function Header() {
+export default function Hero() {
   return (
-    <div className="flex flex-col gap-16 items-center">
+    <div className="heroContainer">
       <div>
         This month's goal - <strong>Do not spend more than 90000 Rs.</strong>
       </div>

@@ -1,0 +1,32 @@
+.summaryContainer {
+    width: 100%;
+    display: flex;
+}
+
+.cardContainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 8px 16px;
+    gap: 20px;
+    width: 20%;
+}
+
+.cardText {
+    font-size: 14px;
+    color: grey;
+}
+
+.cardAmount {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.expenseContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
